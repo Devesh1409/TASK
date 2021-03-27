@@ -12,6 +12,7 @@ background-size: cover;">
         <th>Phone</th>
 		    <th>Role</th>
 		    <th>Date</th>
+        <th>Action</th>
         
 	</tr>
          
@@ -33,6 +34,9 @@ background-size: cover;">
            <td><?php echo $a['phone_number'] ?></td>
            <td><?php echo $a['role']?></td>
            <td><?php echo $a['created_at']?></td>
+           <td>
+             <a class="btn" style="background: #27ae60;" href="edit.php?u_id=<?php echo $a['u_id'] ?>">Edit</a>
+           </td>
           
      
          <?php } ?>

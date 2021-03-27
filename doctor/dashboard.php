@@ -36,6 +36,7 @@ background-size: cover;">
            <td><?php echo $a['created_at']?></td>
            <td>
            	<a class="btn" style="background: #27ae60;" href="patient_graph.php?u_id=<?php echo $a['u_id'] ?>">View Graph</a>
+              <a class="btn" style="background: #27ae60;" href="edit.php?u_id=<?php echo $a['u_id'] ?>">Edit</a>
            </td>
 
           

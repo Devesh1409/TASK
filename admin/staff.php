@@ -5,7 +5,7 @@ background-size: cover;">
   <!-- /.login-logo -->
   <div class="card card-outline card-primary card">
     <div class="card-header text-center">
-      <a href="staff.php" class="h1"><b>STAFF REISTRATION</b></a>
+      <a href="staff.php" class="h1"><b>STAFF REGISTRATION</b></a>
     </div>
    <div class="card-body">
      <form  method="post" action="staff_insert.php">
